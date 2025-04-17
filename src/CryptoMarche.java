@@ -53,7 +53,7 @@ public class CryptoMarche
 	 * @param monnaie
 	 * @return capital total en circulation de la cryptomonnaie (en euros).
 	 */
-	public double capitalMonnaie(Cryptomonnaie monnaie)
+	public double capitalMonneaie(Cryptomonnaie monnaie)
 	{
 		double capital = 0;
 		for (Portefeuille p : this.portefeuilles)
