@@ -1,39 +1,50 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Ma Page Web</title>
-    <link rel="stylesheet" href="stylesheet.css">
+	<meta charset="UTF-8">
+	<title>Ma Page Web</title>
+	<link rel="stylesheet" href="stylesheet.css">
 </head>
+
 <body>
-    <!-- En-tête -->
-    <header>
-        <h1>Bienvenue sur mon site</h1>
-    </header>
+	<!-- En-tête -->
+	<header>
+		<h1>Bienvenue sur mon site</h1>
+	</header>
 
-    <!-- Navigation -->
-    <nav>
-        <a href="#">Accueil</a>
-        <a href="#">Services</a>
-        <a href="#">Contact</a>
-    </nav>
+	<!-- Navigation -->
+	<nav>
+		<a href="#">Accueil</a>
+		<a href="#">Services</a>
+		<a href="#">Contact</a>
+	</nav>
 
-    <!-- Contenu principal -->
-    <div class="container">
-        <h2>Section Principale</h2>
-        <p>Ceci est un paragraphe d'exemple. Personnalisez-le avec votre propre contenu.</p>
-        
-        <h3>Liste d'exemple :</h3>
-        <ul>
-            <li>Élément 1</li>
-            <li>Élément 2</li>
-            <li>Élément 3</li>
-        </ul>
-    </div>
+	<!-- Contenu principal -->
+	<div class="container">
+		<h2>Section Principale</h2>
+		<p>Ceci est un paragraphe d'exemple. Personnalisez-le avec votre propre contenu.</p>
 
-    <!-- Pied de page -->
-    <footer>
-        <p>&copy; 2023 Notre Site Web. Tous droits réservés.</p>
-    </footer>
+		<h3>Liste d'exemple :</h3>
+		<ul>
+			<li><a href="javascript:void(0)"
+					onclick="document.getElementById('imageDisplay').style.display='block';">Élément 1</a></li>
+			<li>Élément 2</li>
+			<li>Élément 3</li>
+		</ul>
+	</div>
+
+	<!-- Image cachée qui s'affichera au clic -->
+	<div id="imageDisplay"
+		style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); text-align:center; padding-top:50px;"
+		onclick="this.style.display='none';">
+		<img src="image/Sans titre.jpeg" alt="Image" style="max-width:80%; max-height:80%;">
+	</div>
+
+	<!-- Pied de page -->
+	<footer>
+		<p>&copy; 2025 Notre Site Web. Tous droits réservés.</p>
+	</footer>
 </body>
+
 </html>
