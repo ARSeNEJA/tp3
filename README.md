@@ -2,23 +2,34 @@
 
 ## Objectif
 
-Ce TP a pour but de mettre en pratique les notions suivantes :
-- Collaboration à deux avec GitHub
-- Suivi d’un projet Java structuré
-- Respect des bonnes pratiques Git (commits, branches, issues, etc.)
+Ce troisième TP a pour objectif de développer une application Java simulant un **marché de crypto-monnaies**, tout en travaillant **en binôme** avec **GitHub**.  
+L’accent est mis sur :
+- La collaboration via GitHub (invitation, clone, synchronisation)
+- Le développement en branches
+- La fusion de branches (merge)
+- L'organisation d'un projet Java structuré
+
+## Organisation & Rôles
+
+- Le projet est réalisé en binôme.
+- L’un assume le rôle d’**Athos**, l’autre de **Porthos**.
+- En cas de trinôme, deux peuvent partager le rôle d’Athos.
+- **Athos** : implémente la classe `CryptoMarche.java`
+- **Porthos** : implémente la classe `Portefeuille.java`
 
 ## Membres du groupe
 
-- 🧑 Joigneau Arsène (pseudo GitHub : `@ARSeNEJA`)
-- 🧑 Gricourt Paul (pseudo GitHub : `@pseudo2`)
-
+- Joigneau Arsène (pseudo GitHub : `@ARSeNEJA`)
+- Gricourt Paul (pseudo GitHub : `@pseudo2`)
+  
 ## Structure du projet
-tp3/ ├── src/ 
-     │ 
-     └── ... (classes Java) 
-     ├── .gitignore 
-     ├── README.md 
-     └── ...
+tp3/ 
+├── README.md 
+└── src/ 
+├── CryptoMarche.java 
+├── Cryptomonnaie.java 
+├── Portefeuille.java 
+└── TestCryptoMarche.java
 
 ## Mise en route
 
