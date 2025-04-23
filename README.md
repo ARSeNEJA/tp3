@@ -23,9 +23,12 @@ L’accent est mis sur :
 - Gricourt Paul (pseudo GitHub : `@P4poule`)
   
 ## Structure du projet
-tp3/ 
+tp3/
+
 ├── README.md 
+
 └── src/ 
+
 ├── CryptoMarche.java 
 ├── Cryptomonnaie.java 
 ├── Portefeuille.java 
