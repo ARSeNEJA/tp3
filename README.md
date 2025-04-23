@@ -20,7 +20,7 @@ L’accent est mis sur :
 ## Membres du groupe
 
 - Joigneau Arsène (pseudo GitHub : `@ARSeNEJA`)
-- Gricourt Paul (pseudo GitHub : `@pseudo2`)
+- Gricourt Paul (pseudo GitHub : `@P4poule`)
   
 ## Structure du projet
 tp3/ 
