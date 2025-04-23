@@ -26,14 +26,15 @@ L’accent est mis sur :
 tp3/
 
 ├── README.md 
-
+|
 └── src/ 
-
+|
 ├── CryptoMarche.java 
-
+|
 ├── Cryptomonnaie.java 
-
+|
 ├── Portefeuille.java 
+|
 └── TestCryptoMarche.java
 
 ## Mise en route
