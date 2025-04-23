@@ -1,4 +1,4 @@
-# TP3 - Gestion de projets Java avec Git
+# TP3 – Marché de Crypto-monnaie (Travail en Équipe avec Git)
 
 ## Objectif
 
