@@ -1,1 +1,0 @@
-Arsène est gay
